@@ -1,28 +1,29 @@
-﻿<?php 
+﻿#!/usr/bin/env php
+<?php
 $appid = 12444;
 $appkey = 'appkey';
 
 
-//true: 同一字符串同一个时间加密字符串相同；
-//false：同一字符串不同时间加密字符串不同
+//true: m~P~L0m~@0m~W符串m~P~L0m~@个m~W0m~W0m~J| 0m~F0m~W符串m~[0m~P~L0m~[
+//false0m~Zm~P~L0m~@0m~W符串0m~Mm~P~Lm~W0m~W0m~J| 0m~F0m~W符串0m~Mm~P~L
 $fixout = true;
 $crypt = new  \Fox\MsgCrypt($appid, $appkey);
 
 $str = 'Kalep MsgCrypt test';
 
-echo $str . '<BR>=====<BR>';
+echo $str . "\n=========\n";
 $res = $crypt->encrypt($str);
 
 
-echo '<pre>';
-var_dump($res);
-          
+echo "\n";
+print_r($res);
+
 $res = $crypt->setFixout(true)->encrypt($str);
-        
+
 var_dump($res);
-echo '<BR>================<BR>';
+echo "\n=========\n";
 
 $res = $crypt->decrypt($res['data']);
-    
-echo '<BR>================<BR>';
+
+echo "\n=========\n";
 var_dump($res);
