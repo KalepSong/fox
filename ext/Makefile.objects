@@ -1,0 +1,58 @@
+fox.lo: /data/github.com/fox/ext/fox.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/fox.c -o fox.lo 
+kernel/main.lo: /data/github.com/fox/ext/kernel/main.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/kernel/main.c -o kernel/main.lo 
+kernel/memory.lo: /data/github.com/fox/ext/kernel/memory.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/kernel/memory.c -o kernel/memory.lo 
+kernel/exception.lo: /data/github.com/fox/ext/kernel/exception.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/kernel/exception.c -o kernel/exception.lo 
+kernel/hash.lo: /data/github.com/fox/ext/kernel/hash.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/kernel/hash.c -o kernel/hash.lo 
+kernel/debug.lo: /data/github.com/fox/ext/kernel/debug.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/kernel/debug.c -o kernel/debug.lo 
+kernel/backtrace.lo: /data/github.com/fox/ext/kernel/backtrace.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/kernel/backtrace.c -o kernel/backtrace.lo 
+kernel/object.lo: /data/github.com/fox/ext/kernel/object.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/kernel/object.c -o kernel/object.lo 
+kernel/array.lo: /data/github.com/fox/ext/kernel/array.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/kernel/array.c -o kernel/array.lo 
+kernel/extended/array.lo: /data/github.com/fox/ext/kernel/extended/array.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/kernel/extended/array.c -o kernel/extended/array.lo 
+kernel/string.lo: /data/github.com/fox/ext/kernel/string.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/kernel/string.c -o kernel/string.lo 
+kernel/fcall.lo: /data/github.com/fox/ext/kernel/fcall.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/kernel/fcall.c -o kernel/fcall.lo 
+kernel/extended/fcall.lo: /data/github.com/fox/ext/kernel/extended/fcall.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/kernel/extended/fcall.c -o kernel/extended/fcall.lo 
+kernel/require.lo: /data/github.com/fox/ext/kernel/require.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/kernel/require.c -o kernel/require.lo 
+kernel/file.lo: /data/github.com/fox/ext/kernel/file.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/kernel/file.c -o kernel/file.lo 
+kernel/operators.lo: /data/github.com/fox/ext/kernel/operators.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/kernel/operators.c -o kernel/operators.lo 
+kernel/math.lo: /data/github.com/fox/ext/kernel/math.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/kernel/math.c -o kernel/math.lo 
+kernel/concat.lo: /data/github.com/fox/ext/kernel/concat.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/kernel/concat.c -o kernel/concat.lo 
+kernel/variables.lo: /data/github.com/fox/ext/kernel/variables.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/kernel/variables.c -o kernel/variables.lo 
+kernel/filter.lo: /data/github.com/fox/ext/kernel/filter.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/kernel/filter.c -o kernel/filter.lo 
+kernel/iterator.lo: /data/github.com/fox/ext/kernel/iterator.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/kernel/iterator.c -o kernel/iterator.lo 
+kernel/time.lo: /data/github.com/fox/ext/kernel/time.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/kernel/time.c -o kernel/time.lo 
+kernel/exit.lo: /data/github.com/fox/ext/kernel/exit.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/kernel/exit.c -o kernel/exit.lo 
+fox/common.lo: /data/github.com/fox/ext/fox/common.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/fox/common.zep.c -o fox/common.lo 
+fox/msgcrypt.lo: /data/github.com/fox/ext/fox/msgcrypt.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/fox/msgcrypt.zep.c -o fox/msgcrypt.lo 
+fox/pkcs7encoder.lo: /data/github.com/fox/ext/fox/pkcs7encoder.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/github.com/fox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/github.com/fox/ext/fox/pkcs7encoder.zep.c -o fox/pkcs7encoder.lo 
+$(phplibdir)/fox.la: ./fox.la
+	$(LIBTOOL) --mode=install cp ./fox.la $(phplibdir)
+
+./fox.la: $(shared_objects_fox) $(FOX_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_fox) $(FOX_SHARED_LIBADD)
+
