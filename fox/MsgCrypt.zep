@@ -42,7 +42,7 @@ class MsgCrypt {
             mcrypt_module_close ( module );
             
             //使用BASE64对加密后的字符串进行编码
-            return \Fox\Common::rtn ( true, "OKx", base64_encode ( encrypted ) );
+            return \Fox\Common::rtn ( true, "OK", base64_encode ( encrypted ) );
         }
         catch \Exception,e {
             return \Fox\Common::rtn ( false, "EncryptAESError" );
@@ -114,4 +114,9 @@ class MsgCrypt {
         }
         return substr(pol,1,16);
     }
+	
+	public function setFixout(fixout){
+		let this->fixout=fixout;
+		return this;
+	}
 }

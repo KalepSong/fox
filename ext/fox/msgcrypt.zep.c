@@ -147,7 +147,7 @@ PHP_METHOD(Fox_MsgCrypt, encrypt) {
 		ZEPHIR_INIT_VAR(_11$$3);
 		ZVAL_BOOL(_11$$3, 1);
 		ZEPHIR_INIT_VAR(_12$$3);
-		ZVAL_STRING(_12$$3, "OKx", ZEPHIR_TEMP_PARAM_COPY);
+		ZVAL_STRING(_12$$3, "OK", ZEPHIR_TEMP_PARAM_COPY);
 		ZEPHIR_RETURN_CALL_CE_STATIC(fox_common_ce, "rtn", &_10, 10, _11$$3, _12$$3, _8$$3);
 		zephir_check_temp_parameter(_12$$3);
 		zephir_check_call_status_or_jump(try_end_1);
@@ -342,6 +342,19 @@ PHP_METHOD(Fox_MsgCrypt, _getRandomStr) {
 	ZVAL_LONG(&_5, 16);
 	zephir_substr(return_value, pol, 1 , 16 , 0);
 	RETURN_MM();
+
+}
+
+PHP_METHOD(Fox_MsgCrypt, setFixout) {
+
+	zval *fixout;
+
+	zephir_fetch_params(0, 1, 0, &fixout);
+
+
+
+	zephir_update_property_this(this_ptr, SL("fixout"), fixout TSRMLS_CC);
+	RETURN_THISW();
 
 }
 
