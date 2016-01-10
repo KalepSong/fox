@@ -4,8 +4,8 @@
 
 ###Install
 ``` bash
-  git clone https://github.com/KalepSong/fox.git
-  cd fox/ext; phpize;./configure ;make; make install
+	git clone https://github.com/KalepSong/fox.git
+	cd fox/ext; phpize;./configure ;make; make install
 ```
 
 
